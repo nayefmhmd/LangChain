@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Engineering Guide</title>
+  </head>
+  <body>
+    <h1>AI Engineering Guide</h1>
+    <p>This guide covers the core building blocks of modern AI applications.</p>
+
+    <h2>Large Language Models</h2>
+    <p>
+      Large language models are neural networks trained on huge amounts of text
+      to predict the next token.
+    </p>
+
+    <h3>Transformers</h3>
+    <p>
+      The transformer architecture uses self-attention to let every token look
+      at every other token in the input.
+    </p>
+
+    <h3>Context Window</h3>
+    <p>
+      The context window is the maximum amount of text a model can read at once.
+      Long documents must be split into chunks to fit.
+    </p>
+
+    <h2>Retrieval-Augmented Generation</h2>
+    <p>
+      RAG gives a model access to external knowledge by retrieving relevant
+      chunks and adding them to the prompt.
+    </p>
+
+    <h3>Document Loaders</h3>
+    <p>
+      Loaders read data from files, web pages, or APIs and turn it into Document
+      objects with content and metadata.
+    </p>
+
+    <h3>Text Splitters</h3>
+    <p>
+      Splitters break documents into smaller chunks. Some split by characters,
+      while others split by structure such as HTML headers.
+    </p>
+
+    <h3>Vector Stores</h3>
+    <p>
+      Vector stores save embeddings of each chunk so the most similar chunks can
+      be found quickly for a given question.
+    </p>
+
+    <h2>Deployment</h2>
+    <p>
+      Production AI systems need monitoring, cost control, caching, and
+      protection against prompt injection.
+    </p>
+
+    <h3>APIs</h3>
+    <p>
+      A common pattern is to wrap the RAG pipeline in a FastAPI backend so other
+      applications can call it.
+    </p>
+  </body>
+</html>
