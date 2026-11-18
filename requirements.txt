@@ -1,5 +1,6 @@
 langchain
 langchain-ollama
+langchain-openai
 ipykernel
 python-dotenv
 langchain_community
@@ -9,3 +10,5 @@ arxiv
 pymupdf
 wikipedia
 langchain-text-splitters
+langchain_core
+langchain_chroma
