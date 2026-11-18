@@ -4,6 +4,7 @@ langchain-openai
 ipykernel
 python-dotenv
 langchain_community
+langchain-community
 pypdf
 bs4
 arxiv
@@ -12,3 +13,5 @@ wikipedia
 langchain-text-splitters
 langchain_core
 langchain_chroma
+sentence_transformers
+langchain_huggingface
