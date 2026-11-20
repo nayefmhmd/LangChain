@@ -18,3 +18,5 @@ langchain_huggingface
 faiss-cpu
 fastapi 
 uvicorn
+langchain-classic
+beautifulsoup4
