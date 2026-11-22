@@ -20,3 +20,5 @@ fastapi
 uvicorn
 langchain-classic
 beautifulsoup4
+langchain-groq
+streamlit
