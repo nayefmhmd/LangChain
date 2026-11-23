@@ -23,3 +23,6 @@ beautifulsoup4
 langchain-groq
 streamlit
 langgraph
+groq
+sounddevice 
+soundfile
